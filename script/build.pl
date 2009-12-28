@@ -7,6 +7,7 @@ use HTML::Template;
 use File::Basename qw(dirname basename);
 
 my $root = dirname(dirname(Cwd::abs_path($0)));
+unlink glob "$root/site/*.html";
 
 my @files = glob "$root/templates/*.tmpl";
 #print "@files";
