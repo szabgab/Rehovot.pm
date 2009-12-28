@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>Rehovot (Israel) Perl Mongers</title>
+</head>
+<body bgcolor="FFFFFF" link="0000FF" vlink="0000cc">
+
+<table width="100%" border=0>
+<tr><td width="30%">
+<img src="img/title.gif">
+<h1>rehovot.pm</h1>
+<hr>
+<font size="-1" color="333333">
+The use of the camel image in association with the Perl
+language is a trademark of <a href="http://www.oreilly.com">O'Reilly & Associates, Inc.</a>
+Used with permission.
+</font>
+<hr>
+</td><td></td></tr>
+</table>
+
+<h2>Open Perl Courses</h2>
+<font size=+2>
+<ul>
+<li><a href="http://bioinfo.weizmann.ac.il/courses/prog/">
+Perl Programming Course for Bioinformatics and Internet</a>
+<li><a href="http://bioinformatics.weizmann.ac.il/courses/prog2/">
+Object-Oriented and Database Programming for Bioinformatics and Internet</a>
+</ul>
+
+<p>
+<h2>Perl Software</h2>
+<ul>
+<li>local <a href="http://bioinformatics.weizmann.ac.il/software/perl/CPAN/">
+CPAN</a> (Comprehensive Perl Archive Network) mirror, with Perl modules, documentation, Perl binaries, etc.
+</ul>
+
+
+</font>
+</html>
