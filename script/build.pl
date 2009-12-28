@@ -2,20 +2,23 @@
 use strict;
 use warnings;
 
-
+use Cwd ();
 use HTML::Template;
+use File::Basename qw(dirname basename);
 
-my @files = glob "templates/*.tmpl";
+my $root = dirname(dirname(Cwd::abs_path($0)));
+
+my @files = glob "$root/templates/*.tmpl";
 #print "@files";
 
 foreach my $tmpl (@files) {
-	my ($dir, $file) = split /\//, $tmpl;
+	my $file = basename($tmpl);
 	next if $file eq 'nav.tmpl' or $file eq 'footer.tmpl' or $file eq 'head.tmpl';
 	print "Processing $file\n";
-	my $t = HTML::Template->new(filename => $tmpl, path => 'templates');
+	my $t = HTML::Template->new(filename => $tmpl, path => "$root/templates");
 	#$t->param();
 	$file =~ s/tmpl$/html/;
-	open my $out, '>', "site/$file" or die $!;
+	open my $out, '>', "$root/site/$file" or die $!;
 	print $out $t->output;
 }
 
