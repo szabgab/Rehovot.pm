@@ -8,10 +8,8 @@ Disallow: /discus/
 Disallow: /faq/
 Disallow: /files/
 Disallow: /icons/
-Disallow: /images/
 Disallow: /imchat/
 Disallow: /imchat-cgi/
-Disallow: /img/
 Disallow: /inc/
 Disallow: /java/
 Disallow: /standard/
