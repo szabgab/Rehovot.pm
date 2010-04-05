@@ -9,5 +9,9 @@ Site Maintenance:
   from site/ to the real site (by Jaime or by Gabor):
 
   cadaver https://groups.pm.org/groups/rehovot
+
+  lcd site
+  mput *.html
+
   
   
