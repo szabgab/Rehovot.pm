@@ -10,8 +10,10 @@ Site Maintenance:
 
   cadaver https://groups.pm.org/groups/rehovot
 
+  (user gabor)
+
   lcd site
   mput *.html
-
+  exit
   
   
